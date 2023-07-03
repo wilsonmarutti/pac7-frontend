@@ -1,0 +1,54 @@
+body {
+    background: #26292B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cidade {
+    color: #FFF;
+    font-size: 32px;
+    font-family: Lexend Exa;
+}
+
+.data-container {
+    width: 266px;
+    height: 31px;
+    border-radius: 42px;
+    background: #A2B2EE;
+}
+
+.data {
+    display: flex;
+    width: 245px;
+    height: 14px;
+    flex-direction: column;
+    color: #26292B;
+    font-size: 18px;
+    font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.temperatura {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 200px;
+    font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
