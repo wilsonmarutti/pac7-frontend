@@ -22,9 +22,6 @@ export class TelaInicialComponent implements OnInit{
     { data: "05/Jan", temperatura: "29°C", img:"sol.png" },
     { data: "06/Jan", temperatura: "30°C", img:"sol.png" },
     { data: "07/Jan", temperatura: "31°C", img:"sol.png" },
-    { data: "08/Jan", temperatura: "32°C", img:"sol.png" },
-    { data: "09/Jan", temperatura: "33°C", img:"sol.png" },
-    { data: "10/Jan", temperatura: "34°C", img:"sol.png" },
   ];
 
   constructor(

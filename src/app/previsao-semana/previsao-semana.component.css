@@ -1,14 +1,7 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-  
 .square {
     position: absolute;
     top: 40px;
-    left: 150px;
+    left: 25%;
     width: 917px;
     height: 134px;
     border-radius: 8px;
@@ -18,9 +11,67 @@
 .circle {
     position: absolute;
     top: 67px;
-    left: 120px;
+    left: 23%;
     width: 75px;
     height: 75px;
     border-radius: 50%;
     background: #5F7ADB;
+}
+
+.text-circle-dia {
+    color: #FFF;
+    font-size: 32px;
+    font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 25%;
+}
+
+.text-circle-dia {
+    color: #FFF;
+    font-size: 32px;
+    font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 25%;
+    margin-top: 5px;
+}
+
+.text-circle-dia-semana {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 25%;
+}
+
+.img-square-clima {
+    width: 47px;
+    height: 47px;
+    margin-left: 6%;
+    margin-top: 40px;
+}
+
+.temp-cima {
+    color: #26292B;
+    font-size: 24px;
+    font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 12%;
+}
+
+.temp-baixo {
+    color: #26292B;
+    font-size: 24px;
+    font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 12%;
 }

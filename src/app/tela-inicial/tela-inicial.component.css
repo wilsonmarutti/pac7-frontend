@@ -83,7 +83,7 @@ body {
     display: flex;
     margin-top: 150px;
     margin-bottom: 50px;
-    margin-left: 20%;
+    margin-left: 30%;
     width: 234px;
     height: 28px;
     flex-direction: column;
@@ -113,7 +113,7 @@ body {
     align-items: center;
     display: inline-block;
     margin-right: 10px;
-    left: 20%;
+    left: 30%;
     
 }
 
