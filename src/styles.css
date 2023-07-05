@@ -41,3 +41,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.maiApp {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 9999;
+    transition: opacity .65s;
+	background-color: #26292B;;
+}

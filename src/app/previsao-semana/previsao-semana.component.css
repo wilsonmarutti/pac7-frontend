@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+  
+.square {
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    width: 917px;
+    height: 134px;
+    border-radius: 8px;
+    background: #A2B2EE;
+}
+  
+.circle {
+    position: absolute;
+    top: 67px;
+    left: 120px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #5F7ADB;
+}

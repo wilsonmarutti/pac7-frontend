@@ -1,8 +1,6 @@
 body {
-    background: #26292B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #26292B;
+    width: 100%;
 }
 
 .container {
@@ -13,12 +11,17 @@ body {
 }
 
 .cidade {
+    margin-top: 75px;
     color: #FFF;
     font-size: 32px;
     font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .data-container {
+    margin-top: 25px;
     width: 266px;
     height: 31px;
     border-radius: 42px;
@@ -41,6 +44,23 @@ body {
     height: 100%;
 }
 
+.clima-container {
+    margin-top: 25px;
+    width: 266px;
+    height: 31px;
+}
+
+.clima {
+    color: #FFF;
+    font-size: 18px;
+    font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    display: flex;
+}
+
 
 .temperatura {
     display: flex;
@@ -51,4 +71,75 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.img-termostato {
+    width: 30px;
+    height: 40px;
+    margin-bottom: 100px;
+}
+
+.text-previsao-semana {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    width: 234px;
+    height: 28px;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.img-expandir {
+    margin-left: 5px;
+    width: 22px;
+    height: 22px;
+}
+
+.previsao-card {
+    margin-right: 10px;
+    width: 106px;
+    height: 153px;
+    border-radius: 17px;
+    background: #5F7ADB;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    display: inline-block;
+    margin-right: 10px;
+    left: 20%;
+    
+}
+
+.previsao-card-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.previsao-card-info {
+    color: #26292B;
+    font-size: 24px;
+    font-family: Lexend Exa;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+}
+
+.previsao-card-info-img {
+    margin-top: 10px;
+    align-items: center;
+    width: 60px;
+    height: 40px;
 }
